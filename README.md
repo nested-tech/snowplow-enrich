@@ -41,7 +41,7 @@ If not just go onto http://java.com/en/download
 To build projects use the sbt command line
 
 ```sh
-sbt "project beam" universal"packageBuild
+sbt "project beam" universal:packageBuild
 ```
 
 This will create a target/universal folder inside the loader project, which should have a zip file. This is the project packaged with a helpful scripts to run it.
